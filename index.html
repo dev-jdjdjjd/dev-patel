@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SRS Random Quiz</title>
+
+  <!-- Preload the bulb image -->
+  <link rel="preload" href="bulb.png" as="image" />
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>SRS Random Quiz</h1>
+    <div id="question-box">
+      <p id="question">Loading...</p>
+      <div id="options"></div>
+    </div>
+    <button id="next-btn">Next Question</button>
+    <button id="restart-btn" style="display:none;">Restart Quiz</button>
+    <p id="score"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
